@@ -22,7 +22,7 @@
     },
     "typeRoots": ["node_modules/@types", "src/@types"],
   },
-  "files": ["src/@types/graphql.d.ts"],
-  "include": ["src/**/*"],
+  "files": ["graphql.d.ts"],
+  "include": ["src/**/*", "graphql.d.ts", "codegen.ts"],
   "exclude": ["codegen.ts", "dist"]
 }
